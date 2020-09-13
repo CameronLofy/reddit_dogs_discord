@@ -25,11 +25,7 @@ async def on_message(message):
                 if(post.stickied is False):
                     posts.append(post)
         dog_post = random.choice(posts)
-        embedded = discord.Embed(title = dog_post.title,
-                              description = dog_post.url,
-                              color = 0x98FB98)
-        embedded.set_image(url = dog_post.url)
-        #await message.channel.send(embed=embedded)
+        
         await message.channel.send(dog_post.url)
         await message.channel.send("Post title: " + dog_post.title)
         

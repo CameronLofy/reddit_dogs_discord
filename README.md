@@ -17,7 +17,7 @@ https://discord.com/api/oauth2/authorize?client_id=753075390163058688&permission
   - Replace the following reddit variables with your Reddit bot credentials.
 - Add or remove any subreddits you would like to be included when getting a random dog picture.
 
-'''
+```
 TOKEN = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 reddit_client_id = "XXXXXXXXXXXXXX"
@@ -39,7 +39,7 @@ subreddits = ("rarepuppers",
               "supermodeldogs",
               "zoomies",
               "dachshunds")
-              '''
+              ```
               
 - Add your Discord bot to your server adn run the script. You should see that the bot in the list of members on the right is now online.
 - Test it by typing 'dog' anywhere in your message.

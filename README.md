@@ -39,7 +39,7 @@ subreddits = ("rarepuppers",
               "supermodeldogs",
               "zoomies",
               "dachshunds")
-              ```
+```
               
 - Add your Discord bot to your server adn run the script. You should see that the bot in the list of members on the right is now online.
 - Test it by typing 'dog' anywhere in your message.
